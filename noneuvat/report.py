@@ -53,5 +53,6 @@ class NonEUVATReport:
         non_EU_vat_table.sort('Country')
         return non_EU_vat_table
 
-    def get_save_name(self):
-        return 'Non EU Vat - {} Q{}'.format(self.year, self.quarter)
+    def get_save_name(self, extension=None):
+        return 'Non EU Vat - {} Q{}.{}'.format(
+            self.year, self.quarter, extension)
