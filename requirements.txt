@@ -1,0 +1,5 @@
+tabler
+pyexcel_ods3
+lxml
+git+ssh://lseagle@lsgit.uk/~/lsgit.uk/stclocal.git@v1.6
+git+ssh://lseagle@lsgit.uk/~/lsgit.uk/pylinnworks@v1.4
